@@ -8,30 +8,42 @@
     <link rel="icon" href="assets/fav.png" type="image/png" />
   </head>
   <body>
-    <nav class="outer-col-1">Nav</nav>
+    <nav class="outer-col-1">
+        <div class="nav-logo">Kushagra Shri Sharma Website</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#cards">Gallery</a></li>
+            <li><a href="#flex-cards">Blog</a></li>
+            <li><a href="#media-container">Media</a></li>
+        </ul>
+    </nav>
     <div class="outer-col-2">
-      <header>Header</header>
+        <header>
+            <h1>Welcome to My Website</h1>
+            <p>My Unique Clicks</p>
+        </header>
+
       <div class="inner-row">
         <div class="inner-col">
           <article>
             <h2>Photo Gallery</h2>
             <p>Clicked by Kushagra</p>
-            <section class="cards">
-              <img src="assets/28m.jpg" alt="Sample photo" />
-              <img src="assets/29m.jpg" alt="Sample photo" />
-              <img src="assets/22m.jpg" alt="Sample photo" />
-              <img src="assets/24m.jpg" alt="Sample photo" />
-              <img src="assets/23m.jpg" alt="Sample photo" />
-              <img src="assets/30m.jpg" alt="Sample photo" />
+            <section class="cards" id="cards">
+                <img src="assets/24m.jpg" alt="Sample photo" />
+                <img src="assets/23m.jpg" alt="Sample photo" />
+                <img src="assets/30m.jpg" alt="Sample photo" />
+                <img src="assets/28m.jpg" alt="Sample photo" />
+                <img src="assets/29m.jpg" alt="Sample photo" />
+                <img src="assets/22m.jpg" alt="Sample photo" />
             </section>
-            <section class="flex-cards">
+            <section class="flex-cards" id="flex-cards">
                 <h2 class="section-title">Dynamic Flex Cards</h2>
                 <div class="flex-container">
                     <article class="card">
-                        <img src="assets/23m.jpg" alt="Sample photo">
+                        <img src="assets/29m.jpg" alt="Sample photo">
                         <div class="text">
                             <h3>Card 1</h3>
-                            <p>Lovely Cloud view</p>
+                            <p>Resturant view</p>
                             <button>Here's how</button>
                         </div>
                     </article>
@@ -81,10 +93,39 @@
                         </div>
                     </article>
                 </div>
+            </section> 
+
+            <section class="media-container" id="media-container">
+                <h2 class="section-title">Clicked Media Objects</h2>
+            
+                <div class="media">
+                    <img class="media-object" src="assets/23m.jpg" alt="Sample photo">
+                    <div class="media-body">
+                        <h3 class="media-heading">My Clicks</h3>
+                        <p>I am a quick learner and apply my knowledge effectively in the best way. </p>
+                        <p>I am one of the best coder who can approach problem from best of my knowledge</p>
+                    </div>
+                </div>
+            
+            
+                <div class="media">
+                    <img class="media-object" src="assets/24m.jpg" alt="Sample photo">
+                    <div class="media-body">
+                        <h3 class="media-heading">Ready to help anyone </h3>
+                        <p>Open to help anyone with best of my knowledge and ready to learn as well</p>
+                    </div>
+                </div>
             </section>
             
+            
           </article>
-          <footer>Footer</footer>
+          <footer>
+            <ul class="footer-links">
+                <li><a href="https://www.linkedin.com/in/kushagra-shri-sharma-9079a620a" target="_blank">Privacy Policy</a></li>
+                <li><a href="https://github.com/kushagrashri" target="_blank">Terms of Service</a></li>
+            </ul>
+            <p>&copy; 2025 Kushagra's Website. All Rights Reserved.</p>
+        </footer>
         </div>
       </div>
     </div>
